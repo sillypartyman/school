@@ -6,10 +6,18 @@ const RemediationProject = () => {
       <h1 className="text-4xl font-bold mb-6">Remediation Project</h1>
       <div className="bg-blue-900 rounded-lg p-8 mb-8">
         <div className="aspect-w-16 aspect-h-9 mb-8">
-          <div className="w-full h-[400px] bg-black/50 rounded-lg flex items-center justify-center">
-            {/* Video embed will go here */}
-            <p className="text-gray-400">Video Content</p>
-          </div>
+          <video 
+            className="w-full h-[400px] rounded-lg"
+            controls
+            playsInline
+            preload="metadata"
+          >
+            <source src="/videos/Timeline2.mp4" type="video/mp4" />
+            <p className="text-white text-center p-4">
+             
+              <a href="/videos/Timeline2.mp4" className="text-blue-300 hover:text-blue-400 underline"> </a> .
+            </p>
+          </video>
         </div>
         <div className="space-y-6">
           <section>
