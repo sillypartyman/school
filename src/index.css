@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black;
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  @apply text-white;
+}
+
+.prose p {
+  @apply text-gray-300;
+}
