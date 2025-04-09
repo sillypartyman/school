@@ -12,10 +12,10 @@ const Home = () => {
             playsInline
             preload="metadata"
           >
-            <source src="/videos/Timeline2.mp4" type="video/mp4" />
+            <source src="/videos/WIN_20250409_12_17_16_Pro.mp44" type="video/mp4" />
             <p className="text-white text-center p-4">
              
-              <a href="/videos/Timeline2.mp4" className="text-blue-300 hover:text-blue-400 underline"> </a> .
+              <a href="/videos/WIN_20250409_12_17_16_Pro.mp44" className="text-blue-300 hover:text-blue-400 underline"> </a> .
             </p>
           </video>
         </div>
