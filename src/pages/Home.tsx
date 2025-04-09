@@ -5,22 +5,19 @@ const Home = () => {
     <div className="text-white">
       <h1 className="text-4xl font-bold mb-6">Welcome to My Digital Portfolio</h1>
       <div className="bg-blue-900 rounded-lg p-8 mb-8">
-        <p className="text-lg mb-4">
-          This portfolio showcases my academic journey and professional development through various projects and assignments.
-        </p>
-        <p className="text-lg">
-          Navigate through the different sections to explore my work, including my literacy narrative, rhetorical analysis,
-          and other academic achievements.
-        </p>
-      </div>
-      <div className="grid md:grid-cols-2 gap-6">
-        <div className="bg-blue-900/50 rounded-lg p-6">
-          <h2 className="text-2xl font-semibold mb-4">Featured Projects</h2>
-          <p className="mb-4">Discover my latest academic work and creative projects.</p>
-        </div>
-        <div className="bg-blue-900/50 rounded-lg p-6">
-          <h2 className="text-2xl font-semibold mb-4">Academic Journey</h2>
-          <p className="mb-4">Learn about my educational background and academic achievements.</p>
+        <div className="aspect-w-16 aspect-h-9 mb-8">
+          <video 
+            className="w-full h-[400px] rounded-lg"
+            controls
+            playsInline
+            preload="metadata"
+          >
+            <source src="/videos/Timeline2.mp4" type="video/mp4" />
+            <p className="text-white text-center p-4">
+             
+              <a href="/videos/Timeline2.mp4" className="text-blue-300 hover:text-blue-400 underline"> </a> .
+            </p>
+          </video>
         </div>
       </div>
     </div>
